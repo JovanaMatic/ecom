@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+.container .is-one-quarter {
+    width: 400px;
+    margin: 0 auto;;
+}
+.table {
+    width: 100%;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.navbar-top {
+    background-color: #00D1B2;
+    display: flex;
+}
+.social01, .social {
+    display: flex;
+    width: 500px;
+    padding: 5px;
+}
+i {
+    padding: 10px;
+    color: white;
+}
+h3 a {
+    color: white;
+}
+span {
+    color: white;
+}
+
+.columns-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
+}
+.column-my-card {
+    box-shadow: 10px 10px 20px rgb(228, 227, 227);
+    margin: 5px;
+    border-radius: 5px;
+}
+.withImage {
+    position:relative;
+}
+.cart-right {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+}
+.cart-item {
+    background-color: rgb(236, 235, 235);
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.product-total-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-02 {
+    background-color: #f0a339;
+} 
+h1,h3,h4,h5 {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.title {
+    padding: 10px;
+}
+.navbar-buttons {
+    padding: 5px;
+}
+.is-inverted, .button-cart {
+    background-color: #00D1B2;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+.subtitle {
+    color: rgb(94, 92, 92);
+    padding: 5px;
+}
+.sum-title {
+    color: rgb(94, 92, 92);
+}
+.total {
+    padding: 5px;
+}
+
+
